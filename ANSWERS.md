@@ -12,6 +12,7 @@ This creates a button with the text "Throw a Pokeball!". Clicking this button wi
 They would all be named Steve.
 
 # Question 4: What did you pass into the redirect_to? If it is a path, what did that path need? If it is not a path, why is it okay not to have a path here?
+I passed in the trainers path, plus the current trainer id. This redirects the page to the current page, which displays all of the Pokemon of the trainer you are damaging.
 
 # Question 5: Explain how putting this line "flash[:error] = @pokemon.errors.full_messages.to_sentence" shows error messages on your form.
 
